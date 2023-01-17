@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>WebCounter | CB</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="resources/icon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container__header">
+            <div class="logo">
+                <img src="./resources/LOGO IPUC BLANCO.png" alt="">
+            </div>
+            <div class="title">
+                <h1 class="title_registro">Registro Asistencia</h1>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="section">
+        <!-- Hombre -->
+        <div class="container">
+            <section class="men" id="men">
+                <h2 class="section__title">Hombres:</h2>
+                <div class="section__values" id = "section__values">
+                    <span class="men__value value">0</span>
+                    <div class="menus__button">
+                        <i class="uil uil-minus-circle"></i>
+                    </div>
+                    <div class="plus__button">
+                            <i class="uil uil-plus-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- Mujeres -->
+            <section class="women" id="women">
+                <h2 class="section__title">Mujeres:</h2>
+                <div class="section__values" id = "section__values">
+                    <span class="women__value value">0</span>
+                    <div class="menus__button">
+                        <i class="uil uil-minus-circle"></i>
+                    </div>
+                    <div class="plus__button">
+                            <i class="uil uil-plus-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- Visitas -->
+            <section class="friends" id="friends">
+                <h2 class="section__title">Visitas:</h2>
+                <div class="section__values" id = "section__values">
+                    <span class="friends__value value">0</span>
+                    <div class="menus__button">
+                        <i class="uil uil-minus-circle"></i>
+                    </div>
+                    <div class="plus__button">
+                            <i class="uil uil-plus-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- Adolescentes -->
+            <section class="teens" id="teens">
+                <h2 class="section__title">Adolescentes:</h2>
+                <div class="section__values" id = "section__values">
+                    <span class="teens__value value">0</span>
+                    <div class="menus__button">
+                        <i class="uil uil-minus-circle"></i>
+                    </div>
+                    <div class="plus__button">
+                            <i class="uil uil-plus-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- Niños -->
+            <section class="kids" id="kids">
+                <h2 class="section__title">Niños:</h2>
+                <div class="section__values" id = "section__values">
+                    <span class="kids__value value">0</span>
+                    <div class="menus__button">
+                        <i class="uil uil-minus-circle"></i>
+                    </div>
+                    <div class="plus__button">
+                            <i class="uil uil-plus-circle"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- Total -->
+            <section class="total" id="total">
+                <h2 class="section__title">Asistencia Total:</h2>
+                <span class="total__value value">0</span>
+            </section>
+        </div>
+
+        <div class="send__data disabledbutton" id = "send__data">
+            <a class="message">
+                Enviar registro
+                <i class="uil uil-message"></i>
+            </a>  
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        
+    </footer>
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+</html>
